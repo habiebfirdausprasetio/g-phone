@@ -66,7 +66,6 @@ h2 {
     margin: 10px;
     display: inline-block;
     width: 220px;
-    /* height: 450px; */
     text-align: center;
     background: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -97,10 +96,6 @@ h2 {
     cursor: pointer;
     border-radius: 5px;
     transition: background 0.3s;
-}
-
-.dark-mode .accordion-header {
-    background: #FFD700;
 }
 
 .accordion-header:hover {
@@ -166,6 +161,7 @@ h2 {
 
 .maps {
     flex: 1;
+    margin-top: 50px;
 }
 
 iframe {
@@ -239,7 +235,7 @@ input {
 }
 
 footer {
-    background-color: #333;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -261,7 +257,7 @@ footer:hover {
     padding: 40px 20px;
     font-size: 28px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
     transition: transform 0.3s ease;
 }
@@ -307,7 +303,7 @@ header h1 {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #333;
+    color: black;
 }
 
 .product {
@@ -326,4 +322,8 @@ nav a {
 
 .dark-mode .h2d {
     color: white;
+}
+
+.tmp {
+    height: 150px;
 }
